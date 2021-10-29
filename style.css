@@ -1,0 +1,190 @@
+body{
+    background: white;
+}
+
+.inicio{ 
+    height: 80px;  
+    width: 100%;
+}
+.contenedor-Principal{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+.botton button {
+    width: 60px;
+    height: 60px;
+    background: #FFC300;
+    border-radius: 12px;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 1px  #000;
+}
+
+.botton  button:hover{
+    opacity: 0.6;
+}
+
+#pos-Inicio{
+    width: 170px;
+    height: 60px; 
+    font-size: 20px;   
+}
+.navegacion a{
+    text-decoration: none;
+    font-family: Source Code Pro;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    transform: rotate(-0.07deg);
+    padding: 5rem;
+}
+
+.navegacion a:hover{
+    color: #FFC300;
+}
+
+.secuencia-Inicio{
+    width: 90%;
+    height: 30rem;
+    margin: 10rem 5rem 5rem;
+    background-color: #003566 ;
+    box-shadow: 0 0 50px 5px #003566;
+    border-radius: 1rem;
+
+}
+
+.ord-Inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ord-Inicio h2{
+    font-family: Source Code Pro;
+    font-size: 90px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-align: center;
+    background-position: center;
+}
+
+.ord-Inicio img{
+    width: 600px;
+    height: 600px;
+    border-radius: 1rem;
+    position: relative;
+    top: -120px
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoColeccion{
+    font-size: 70px;
+    text-align: center;
+}
+
+.cajaProducto{
+    width: 600px;
+    height: 600px;
+    background-color: #003566;
+    box-shadow: 0 0 50px 5px #003566;
+    border-radius: 1rem;
+    margin: auto;
+    margin-left: 1rem;
+}
+
+.cajaProducto .imagenBuzo{
+    width: 450px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.cajaProducto  .imagenSudaderas{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.cajaProducto  .imagenAces{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.cajaProducto h3{
+
+    display: block;
+    font-size: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.aliniarIconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    margin: -50px 180px;
+}
+
+.aliAcc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    margin: -10px 80px;
+}
+
+.aliSudaderas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    margin: -50px 100px;
+}
+.cajaSudadera , .cajaAcce{
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    margin: 6rem 0rem 0rem 0rem;
+}
+.footer a{
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: Source Code Pro;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    transform: rotate(-0.07deg);
+    padding: 3rem;
+}
+
+
+
+
+
+
+
