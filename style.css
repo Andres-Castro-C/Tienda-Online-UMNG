@@ -141,6 +141,7 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: #FFFFFF;
 }
 
 .aliniarIconos{
@@ -180,6 +181,45 @@ footer{
     color: #000000;
     transform: rotate(-0.07deg);
     padding: 3rem;
+}
+
+.fomulario-InicioSeccion h2{
+
+    text-align: left;
+    font-size: 40px;
+    color: #78788c;
+    margin: auto 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3.5px solid #787c;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+
+.fomulario-InicioSeccion .formulario{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 55px 80px;
+    margin: 0 auto;
+}
+
+.fomulario-InicioSeccion input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid #181831;
+    background: none;
+    padding: 10px;
+    color: rgb(55, 54, 54);
+}
+
+.fomulario-InicioSeccion p::before{
+    content: attr(type);
+    font-size: 20px;
+    color: black;
 }
 
 
