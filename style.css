@@ -144,11 +144,26 @@ body{
     color: #FFFFFF;
 }
 
-.aliniarIconos{
+.aliniarInicios{
     display: flex;
     justify-content: space-between;
     align-items: center;;
     margin: -50px 180px;
+}
+
+.navProductos {
+    font-size: 40px;
+    font-family: Source Code Pro;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 1rem 4rem;
+}
+.navProductos a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navProductos a:hover{
+    color: #FFC300;
 }
 
 .aliAcc{
@@ -249,7 +264,7 @@ footer{
 }
 .cajaVentas{
     width: 450px;
-    height: 470px;
+    height: 450px;
     background-color: #003566;
     box-shadow: 0 0 50px 5px #003566;
     border-radius: 1rem;
@@ -275,16 +290,15 @@ footer{
 .aliniarIconos{
     display: flex;
     justify-content: start;
-    margin-top: 0rem;
+    margin-top: 0.5rem;
     margin-left: 8rem;
 }
 
 .aliniarIconos select{
     font-size: 27px;
-    margin:1rem;
+    margin: 0rem 1rem;
     background-color:floralwhite;
     border: 0.2rem solid #000000;
-
 }
 
 .bottonComprar button{
