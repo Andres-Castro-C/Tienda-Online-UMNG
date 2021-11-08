@@ -223,6 +223,87 @@ footer{
 }
 
 
+/* Filtros  Menu  Buzoz, Sudaderas & Aceesorios */
+.filtro{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 30px;
+    border: 3px solid #000;
+    margin-left: 25rem;
+}
+
+.filtro select{
+    margin-left: 3rem;
+    border: none;
+    border: 3px none;  
+}
+
+.ventasBuzos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3rem;
+    padding-left: 4rem;
+}
+.cajaVentas{
+    width: 450px;
+    height: 470px;
+    background-color: #003566;
+    box-shadow: 0 0 50px 5px #003566;
+    border-radius: 1rem;
+    margin: auto;
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+
+.buzoVentas{
+    display: block;
+    width: 300px;
+    height: 330px;
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.cajaVentas h3{
+    position: relative ;
+    margin-left: 11rem;
+}
+.aliniarIconos{
+    display: flex;
+    justify-content: start;
+    margin-top: 0rem;
+    margin-left: 8rem;
+}
+
+.aliniarIconos select{
+    font-size: 27px;
+    margin:1rem;
+    background-color:floralwhite;
+    border: 0.2rem solid #000000;
+
+}
+
+.bottonComprar button{
+    width: 100px;
+    height: 40px;
+    background: #FFC300;
+    border-radius: 12px;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 1px  #000;
+}
+
+
+
+
 
 
 
