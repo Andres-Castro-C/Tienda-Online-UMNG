@@ -283,6 +283,16 @@ footer{
     margin-left: 5rem;
 }
 
+.sudaderaVentas{
+    display: block;
+    width: 300px;
+    height: 330px;
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+
 .cajaVentas h3{
     position: relative ;
     margin-left: 11rem;
