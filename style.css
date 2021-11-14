@@ -373,10 +373,92 @@ footer{
 }
 
 
+/* Pagina de Ventas */
+.ventasMain{
+    background-color: #003566;
+    height: 500px;
+    box-shadow: 0 0 50px 5px #003566;
+    border-radius: 1rem;
+    margin: 5rem;
+}
+
+.visuluazacionCompra{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.bottosAgregar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.bottosAgregar img{
+    width: 50px;
+}
 
 
+#restar{
+    width: 80px;
+    height: 50px;
+}
+
+.ventasMain table, tr, td{
+    color: white;
+    font-size: 30px;
+    margin: 2rem;
+    align-items: center;
+    padding: 10px 50px 10px 10px;
+    padding-left: 20px;
+}
 
 
+.contedorMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottonVentas button{
+    width: 300px;
+    height: 40px;
+    background: #FFC300;
+    border-radius: 12px;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 1px  #000;
+    margin-left: 8rem;
+}
 
 
+.metodosPago{
+    margin: 5rem;
+}
 
+.metodosPago h2{
+    font-size: 50px;
+}
+
+.contenedorPedidos{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+    align-items: center;
+}
+
+.contenedorPedidos img{
+    margin-left: 2rem;
+}
+
+.contenedorPedidos h2{
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
