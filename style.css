@@ -1,6 +1,12 @@
 body{
     background: white;
+    
 }
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  } 
 
 .inicio{ 
     height: 80px;  
@@ -97,8 +103,8 @@ body{
 }
 
 .cajaProducto{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: #003566;
     box-shadow: 0 0 50px 5px #003566;
     border-radius: 1rem;
@@ -107,30 +113,30 @@ body{
 }
 
 .cajaProducto .imagenBuzo{
-    width: 450px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
     position: relative;
     margin: auto;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
 }
 
 .cajaProducto  .imagenSudaderas{
     width: 300px;
-    height: 400px;
-    position: relative;
-    margin: auto;
-    margin-top: 2rem;
-    margin-left: 10rem;
-}
-
-.cajaProducto  .imagenAces{
-    width: 300px;
     height: 300px;
     position: relative;
     margin: auto;
-    margin-top: 5rem;
-    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.cajaProducto  .imagenAces{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 5rem;
 }
 
 .cajaProducto h3{
@@ -148,7 +154,7 @@ body{
 .aliniarInicios{
     display: flex;
     justify-content: space-between;
-    align-items: center;;
+    align-items: center;
     margin: -50px 180px;
 }
 
@@ -160,6 +166,7 @@ body{
     margin: 1rem 4rem;
 }
 .navProductos a{
+    margin: 1rem -3rem;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -181,8 +188,8 @@ body{
     margin: -50px 70px;
 }
 .cajaSudadera , .cajaAcce{
-    width: 500px;
-    height: 500px;
+    width: 360px;
+    height: 400px;
 }
 
 footer{
@@ -273,13 +280,13 @@ footer{
     padding-left: 4rem;
 }
 .cajaVentas{
-    width: 450px;
+    width: 410px;
     height: 450px;
     background-color: #003566;
     box-shadow: 0 0 50px 5px #003566;
     border-radius: 1rem;
     margin: auto;
-    margin-left: 1rem;
+    margin-left: -1rem;
     color: #FFFFFF;
 }
 
