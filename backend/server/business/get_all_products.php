@@ -1,8 +1,8 @@
 <?php
-include('../_ConnectionDB.php')
+include('../ConnectionDB.php');  
 $response=new stdClass();
 
-$datos=[]:
+$datos=[];
 $i=0;
 $sql="select * from producto where estado=1";
 $result=mysqli_query($con,$sql);
@@ -18,6 +18,6 @@ while($row=mysqli_fetch_array($result)){ //recorre todos los resultados de la co
 $response->datos=$datos;
 
 mysqli_close($con);
-header('Content-Type: aplication/json')
+header('Content-Type: aplication/json');
 echo json_encode($response);
 ?>

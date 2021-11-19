@@ -9,10 +9,8 @@ class Usuario{
     var $fechaNacimiento;
     var $clave;
 
-clave
 
-    function __construct($idusuario, $nombre, $documento, $correo, $fechaNacimiento, $clave)
-    {
+    function __construct($idusuario, $nombre, $documento, $correo, $fechaNacimiento, $clave){
         $this->idusuario = $idusuario;
         $this->nombre = $nombre;
         $this->documento =  $documento;
