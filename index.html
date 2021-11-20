@@ -22,7 +22,7 @@
                     <button id="pos-Inicio" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"> Iniciar Secion </button>
                 </div>
 
-                <!-- Modal 1 -->
+                <!-- Modal 1 --> 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog ">
                     <div class="modal-content">
@@ -31,7 +31,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form class="formulario"> 
+                            <form action="backend/server/business/inicio.php" method="post" class="formulario"> 
                                 <p type="Correo">
                                     <input type="email"> </input>
                                 </p>
@@ -65,30 +65,29 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                            <form class="formulario"> 
+                            <form class="formulario" action="registro" method="post"> 
 
                                 <p type="Nombre">
-                                    <input type="text" placeholder="Escribe su nombre aqui" required> </input> 
+                                    <input type="text" name="nombre" placeholder="Escribe su nombre aqui" required> </input> 
                                 </p>
                                 <p type="Documento">
-                                    <input type="text" placeholder="Escribe su Documento" required> </input> 
+                                    <input type="text" name="documento" placeholder="Escribe su Documento" required> </input> 
                                 </p>
                                 <p type="Fecha De Nacieminto"> 
-                                    <input type="date" > </input>
+                                    <input type="date" name="fecha" > </input>
                                 </p>
                                 <p type="Correo">
-                                    <input type="email"> </input>
+                                    <input type="email" name="email"> </input>
                                 </p>
                                 <p type="Clave">
-                                <input type="password"> </input> 
+                                <input type="password" name="pasword"> </input> 
                             
                             </from>
                             </div>
                             <div class="modal-footer">
                                 <div class="botton">
-                                    <button id="pos-Inicio" type="button" data-bs-dismiss="modal"> Registarse </button>
+                                    <button id="pos-Inicio" type="button" name="meRegistre" data-bs-dismiss="modal"> Registarse </button>
                                 </div>
-                            </button>
                             </div>
                         </div>
                         </div>

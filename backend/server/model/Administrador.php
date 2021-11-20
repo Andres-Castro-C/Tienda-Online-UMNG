@@ -9,7 +9,7 @@ class Usuario{
     var $fechaNacimiento;
     var $clave;
 
-clave
+
 
     function __construct($idadmin, $nombre, $documento, $correo, $fechaNacimiento, $clave)
     {
