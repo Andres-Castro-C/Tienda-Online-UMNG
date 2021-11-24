@@ -105,7 +105,7 @@
     box-shadow: 0 0 50px 5px #003566;
     border-radius: 1rem;
     margin: auto;
-    margin-left: 1rem;
+    margin-left: 5rem;
     flex-wrap: wrap;
 }
 
@@ -522,7 +522,7 @@ footer{
     .contenedor-Principal{
         display: flex;
         justify-content: space-between;
-        margin: 1rem;
+        margin: 1rem 5rem 0rem; 
 
     }
 
@@ -536,9 +536,9 @@ footer{
         height: 30px;
     }
     #pos-Inicio{
-        width: 130px;
+        width: 100px;
         height: 40px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .navegacion a{
         font-size: 17px;
@@ -565,6 +565,7 @@ footer{
         top: 0px;
         margin-left: 10rem;
     }
+    
     .main{
         display: block;
         flex-direction: column;
@@ -609,7 +610,7 @@ footer{
     }
 
     .aliAcc{
-        margin-left: 13rem;
+        margin-left: 15rem;
     }
 
     .footer a{
@@ -619,7 +620,7 @@ footer{
 }
 /* Pantallas de mas de 480px*/
 @media  screen and (max-width: 425px){
-
+    
     .inicio{
         width: auto;
         height: auto;
@@ -627,8 +628,115 @@ footer{
 
     .contenedor-Principal{
         display: block;
-        flex-direction: column;
-        justify-content: space-between;
+        float: none;
+    }
+
+    .botton button{
+        width: 30px;
+        height: 30px;
+        display: none;
     }
     
+    button img{
+        width: 20px;
+        height: 20px;
+    }
+    #pos-Inicio{
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .navegacion a{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20rem;
+        border-bottom: 4px solid #003566;
+    }
+
+    .secuencia-Inicio{
+        width: 500px;
+        height: auto;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+
+    .ord-Inicio h2{
+        font-size: 25px;
+        margin-top: 0rem;
+    }
+
+    .ord-Inicio img{
+        width: 400;
+        height: auto;
+        border-radius: 1rem;
+        top: 0px;
+        margin-left: 5.5rem;
+    }
+
+    .main{
+        display: block;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .textoColeccion {
+        font-size: 50px;
+        margin-left: 15rem;
+    }
+
+    .cajaProducto{
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin-left: 10rem;
+        margin-top: 2rem;
+    }
+
+    .cajaProducto  .imagenSudaderas{
+        width: 150px;
+        height: 200px;
+        margin: 2rem 10rem;
+    }
+
+    .aliSudaderas{
+        margin-left: 6rem;
+        margin-top: -3rem;
+    }
+
+    .navProductos{
+        font-size: 30px;
+    }
+    .cajaProducto  .imagenBuzo{
+        margin-left: 5rem;
+        width: 200px;
+        height: 200px;
+    }
+
+    .aliniarInicios{
+        margin-top: -1rem;
+        margin-left: 9.5rem;
+    }
+
+    .cajaProducto  .imagenAces{
+        width: 200px;
+        height: 200px;
+        margin-left: 5rem;
+    }
+
+    .aliAcc{
+        margin-left: 6rem;
+    }
+
+    .footer a{
+        font-size: 17px;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20rem;
+        border-bottom: 4px solid #003566;
+    }
 }
+
