@@ -84,13 +84,13 @@
     border-radius: 1rem;
     position: relative;
     top: -120px;
-    flex-wrap: wrap;
+
 }
 
 .main{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin:auto;
 }
 
 .textoColeccion{
@@ -472,8 +472,9 @@ footer{
 /* Responsive */
 
 /* Pantallas de mas de 1024px*/
-@media  screen and (max-width:1024px) {
+@media  screen and (max-width:1500px) and (min-width:1024px)  {
 
+    
     .inicio{
         width: auto;
         height: auto;
@@ -485,11 +486,15 @@ footer{
     }
     .navegacion a{
         font-size: 17px;
-        padding: 1rem;
+        padding: auto;
+        margin: auto;
     }
 
-    .ord-Inicio{
+    .secuencia-Inicio{
         display: block;
+    }
+    .ord-Inicio{
+        margin: auto;
     }
     .ord-Inicio h2{
         font-family: Source Code Pro;
@@ -508,6 +513,14 @@ footer{
         position: relative;
         top: -120px;
         flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .main{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
     }
 
     
@@ -535,6 +548,7 @@ footer{
         width: 30px;
         height: 30px;
     }
+
     #pos-Inicio{
         width: 100px;
         height: 40px;
@@ -553,11 +567,15 @@ footer{
         justify-content: center;
     }
 
+    .ord-Inicio{
+        display: block;
+    }
     .ord-Inicio h2{
         font-size: 50px;
         margin-top: 0rem;
     }
     
+
     .ord-Inicio img{
         width: auto;
         height: auto;
@@ -637,10 +655,6 @@ footer{
         display: none;
     }
     
-    button img{
-        width: 20px;
-        height: 20px;
-    }
     #pos-Inicio{
         width: 130px;
         height: 30px;
@@ -650,7 +664,7 @@ footer{
         display: block;
         flex-direction: column;
         align-items: center;
-        margin-left: 20rem;
+        margin-left: 5rem;
         border-bottom: 4px solid #003566;
     }
 
@@ -735,7 +749,7 @@ footer{
         display: block;
         flex-direction: column;
         align-items: center;
-        margin-left: 20rem;
+        margin-left: 5rem;
         border-bottom: 4px solid #003566;
     }
 }

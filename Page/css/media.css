@@ -1,3 +1,175 @@
-body{
-    border: 100px solid red;
+@media screen and (max-width:769px) {
+    *{
+        width: auto;
+        height: auto;
+    }
+
+    .inicio{
+        width: auto;
+        height: auto;
+    }
+    .contenedor-Principal{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 5rem 0rem; 
+
+    }
+
+    .botton button{
+        width: 40px;
+        height: 40px;
+    }
+    
+    button img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .filtro{
+        width: center center;
+        margin: auto;
+        margin-top: 4rem;
+        font-size: 20px;
+
+    }
+
+    .ventasBuzos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+
+    .cajaVentas{
+        margin: 2rem;
+    }
+
+    .aliniarIconos select {
+        color: black;
+    }
+
+    .cajaVentas h3{
+        margin-left: 15rem;
+    }
+
+    /* Accesorios*/
+    .accesoriosVentas{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem;
+    }
+
+    .accesoriosVentas{
+        margin-left: 5rem;
+    }
+
+    .bottonComprar button{
+        margin-left: 4rem;
+    }
+    
+    .cajaVentas h3{
+        margin-top: 0rem;
+    }
+}
+
+/* Pantallas de mas de 480px*/
+@media  screen and (max-width: 425px){
+    
+    .inicio{
+        width: auto;
+        height: auto;
+    }
+
+    .contenedor-Principal{
+        display: block;
+        float: none;
+    }
+
+    .botton button{
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    
+
+    #pos-Inicio{
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .navegacion a{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5rem;
+        border-bottom: 4px solid #003566;
+    }
+
+    .filtro{
+        
+        display: none;
+    }
+
+    .ventasBuzos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-left: -2rem;
+    }
+    
+    .cajaVentas{
+        width: 310px;
+        height: 310px;
+        margin-top: 2rem;
+    }
+
+    .buzoVentas{
+        display: block;
+        width: 200px;
+        height: 230px;
+    }
+
+    .footer a{
+        font-size: 17px;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5rem;
+        border-bottom: 4px solid #003566;
+    }
+
+    .cajaVentas h3{
+        position: relative;
+        margin-left: 11rem;
+        margin-top: 0rem;
+    }
+
+    .aliniarIconos{
+        display: flex;
+        justify-content: start;
+        margin-top: 0.5rem;
+        margin-left: 4rem;
+    }
+
+    .accesoriosVentas{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bottonComprar{
+        margin-left: -4rem;
+    }
+
+    .accesoriosVentasB2{
+        width: 100px;
+        height: 220px;
+        margin-top: 0rem;
+        margin-left: 10rem;
+    }
+
+    .accesoriosVentasG2{
+        width: 270px;
+        height: 200px;
+        margin-left: 3rem;
+    }
 }
