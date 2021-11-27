@@ -1,6 +1,6 @@
 <?php
 
-class Producto {
+class Pedido {
 
     var $idPedido;
     var $registro;
